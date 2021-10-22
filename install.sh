@@ -5,27 +5,27 @@ mk_random_no_0_500() {
 }
 
 echo "################################"
-echo "## Downloading required files ##"
+echo "## DOWNLOADING                ##"
 echo "################################"
 
 cd ~
 
 if [ -e ~/.vimrc ]; then
-	echo "## Backingup old .vimrc, OK."
+  echo "## Backingup old .vimrc, OK."
   mv .vmrc .backup.vimrc.$RANDOM
 fi
 
 wget -O .vimrc https://raw.githubusercontent.com/byjamaljama/vim/main/.vimrc
 
 if [ -e ~/.vim/bundle ]; then
-	echo "## Backingup old Vundle, OK."
+  echo "## Backingup old Vundle, OK."
   mv ~/.vim/bundle ~/.vim/bundle.backup.$RANDOM
 fi
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 echo "################################"
-echo "## 2. Instructions            ##"
+echo "## 2. INSTRUCTIONS            ##"
 echo "################################"
 
 echo "1. Open vim and run :PluginInstall"
