@@ -12,7 +12,7 @@ cd ~
 
 if [ -e ~/.vimrc ]; then
   echo "## Backingup old .vimrc, OK."
-  mv .vmrc .backup.vimrc.$RANDOM
+  mv ~/.vmrc ~/.backup.vimrc.$RANDOM
 fi
 
 wget -O .vimrc https://raw.githubusercontent.com/byjamaljama/vim/main/.vimrc
