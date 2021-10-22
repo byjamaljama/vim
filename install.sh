@@ -25,9 +25,7 @@ fi
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 echo "################################"
-echo "## 2. INSTRUCTIONS            ##"
+echo "## DOWNLOAD COMPLETE          ##"
 echo "################################"
 
-echo "1. Open vim and run :PluginInstall"
-echo "2. cd ~/.vim/bundle/YouCompleteMe"
-echo "3. run python3 install.py --all"
+echo "Please open vim and run :PluginInstall"
