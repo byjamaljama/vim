@@ -42,7 +42,7 @@ Plugin 'klen/pylama'
 
 " ==== Moving / searching
 Plugin 'easymotion/vim-easymotion'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'ervandew/supertab'
 Plugin 'terryma/vim-multiple-cursors'
 
