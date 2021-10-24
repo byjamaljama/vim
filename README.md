@@ -36,5 +36,5 @@ cd ~/.vim/bundle/YouCompleteMe
 #sudo pip install cmake
 
 # Install YouCompleteMe
-run python3 install.py --all
+python3 install.py --all
 ```
